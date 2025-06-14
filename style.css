@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #826b58;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  background: #685341;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  color: rgb(26, 26, 26);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: rgb(26, 26, 26);
+}
+
+section {
+  padding: 5rem 2rem;
+  margin-top: 4rem;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.home-img img {
+  width: 250px;
+  border-radius: 50%;
+  border: 4px solid rgb(26, 26, 26);
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home-content h1 {
+  font-size: 2rem;
+}
+
+.typing-text {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.home-content p {
+  font-size: 1rem;
+}
+
+.social-icons a {
+  margin: 0.3rem 0;
+  color:rgb(26, 26, 26);
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background: none;
+  color: rgb(26, 26, 26);
+  border: 2px solid rgb(26, 26, 26);
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background: whitesmoke;
+  color: #000;
+}
+
+h2 {
+  color: rgb(26, 26, 26);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+h4{
+    color:rgb(26, 26, 26);
+}
+
+ul {
+  list-style: square inside;
+  padding-left: 1rem;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
+
+#weather-info {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-top: 1rem;
+  }
+
+  .home {
+    flex-direction: column;
+  }
+
+  .home-img img {
+    width: 180px;
+  }
+}
+
