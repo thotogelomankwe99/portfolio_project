@@ -79,9 +79,11 @@ section {
 
 .home-content h1 {
   font-size: 2rem;
+  color: #000;
 }
 
 .typing-text {
+  color: #000;
   font-size: 1.2rem;
   margin: 1rem 0;
 }
