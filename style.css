@@ -67,6 +67,11 @@ section {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  margin: 9rem;
+  border: 2px solid #9AA438;
+  box-shadow: 0 0 50px 15px #111206;
+  background-color: #676D26;
+  border-radius: 1rem;
 }
 
 .home-img img {
